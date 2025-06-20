@@ -1,0 +1,11 @@
+/* Make the main container a vertical flexbox filling the screen height */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+/* Content area grows to fill available space between Nav and Footer */
+.content {
+  flex-grow: 1;
+}
