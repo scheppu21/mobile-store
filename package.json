@@ -1,18 +1,18 @@
 {
+  "homepage": "https://scheppu21.github.io/mobile-store",
   "name": "ecommerce_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-   
     "@emailjs/browser": "^4.4.1",
     "@stripe/react-stripe-js": "^3.7.0",
     "@stripe/stripe-js": "^7.3.1",
-   
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "firebase": "^11.8.1",
+    "gh-pages": "^6.3.0",
     "i18next": "^25.2.1",
     "jspdf": "^3.0.1",
     "react": "^18.3.1",
@@ -30,6 +30,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
