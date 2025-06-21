@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/mobile-store/static/css/main.a8df4435.css",
+    "main.js": "/mobile-store/static/js/main.4afa7162.js",
+    "static/js/239.56399e93.chunk.js": "/mobile-store/static/js/239.56399e93.chunk.js",
+    "static/js/977.7386f27c.chunk.js": "/mobile-store/static/js/977.7386f27c.chunk.js",
+    "static/js/455.e0e75271.chunk.js": "/mobile-store/static/js/455.e0e75271.chunk.js",
+    "static/media/galaxyfold.jpeg.jpg": "/mobile-store/static/media/galaxyfold.jpeg.e9dec60592a23b3d9f9a.jpg",
+    "static/media/logo.jpeg.jpg": "/mobile-store/static/media/logo.jpeg.1220a25e4f9952881ce1.jpg",
+    "static/media/iphone.jpg": "/mobile-store/static/media/iphone.26353e8868432fb816cc.jpg",
+    "static/media/1._iPhones.jpeg.jpg": "/mobile-store/static/media/1._iPhones.jpeg.52a9e3906987cc88910c.jpg",
+    "static/media/swatchesultra.jpeg.jpg": "/mobile-store/static/media/swatchesultra.jpeg.91702e06be36fc0875fc.jpg",
+    "static/media/ipadairp.jpeg.jpg": "/mobile-store/static/media/ipadairp.jpeg.43a713b783ade1ce9e3d.jpg",
+    "static/media/ipadairb.jpeg.jpg": "/mobile-store/static/media/ipadairb.jpeg.afad61f11bfdc0979832.jpg",
+    "static/media/ipadprob.jpeg.jpg": "/mobile-store/static/media/ipadprob.jpeg.a1338b328c80a14fd8d5.jpg",
+    "static/media/macairb.jpeg.jpg": "/mobile-store/static/media/macairb.jpeg.9a153a5c8425c6e51f5f.jpg",
+    "static/media/swatches6.jpeg.jpg": "/mobile-store/static/media/swatches6.jpeg.b348024f63ca0a59f8ad.jpg",
+    "index.html": "/mobile-store/index.html",
+    "main.a8df4435.css.map": "/mobile-store/static/css/main.a8df4435.css.map",
+    "main.4afa7162.js.map": "/mobile-store/static/js/main.4afa7162.js.map",
+    "239.56399e93.chunk.js.map": "/mobile-store/static/js/239.56399e93.chunk.js.map",
+    "977.7386f27c.chunk.js.map": "/mobile-store/static/js/977.7386f27c.chunk.js.map",
+    "455.e0e75271.chunk.js.map": "/mobile-store/static/js/455.e0e75271.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8df4435.css",
+    "static/js/main.4afa7162.js"
+  ]
+}
