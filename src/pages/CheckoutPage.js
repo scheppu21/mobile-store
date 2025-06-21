@@ -81,8 +81,8 @@ const CheckoutPage = () => {
         const orderId = docRef.id;
 
         await emailjs.send(
-          'service_5flixob',
-          'template_n6y7xrz',
+          process.env.REACT_APP_EMAILJS_SERVICE_ID,
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
           {
             order_id: orderId,
             email: form.email,
@@ -93,7 +93,7 @@ const CheckoutPage = () => {
             })),
             cost_total: totalCost.toFixed(2),
           },
-          '2TGz48J8djYtO8ftq'
+          process.env.REACT_APP_EMAILJS_PUBLIC_KEY
         );
 
         clearCart();

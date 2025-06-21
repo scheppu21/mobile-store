@@ -35,13 +35,13 @@ const ContactPage = () => {
       setStatus({ type: 'error', message: 'Please enter a valid email address.' });
       return;
     }
-
-    emailjs.sendForm(
-      'service_5flixob',     // ← replace with your actual ID
-      'template_adwogy3',    // ← replace with your actual ID
-      form.current,
-      '2TGz48J8djYtO8ftq'      // ← replace with your public key
-    ).then(
+emailjs.sendForm(
+  process.env.REACT_APP_EMAILJS_SERVICE_ID,
+  process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+  form.current,
+  process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+)
+.then(
       (result) => {
         setStatus({ type: 'success', message: 'Message sent successfully!' });
         form.current.reset();

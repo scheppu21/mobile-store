@@ -4,13 +4,13 @@ import logo from '../assets/logo.jpeg.jpg';
 import {
   FiSearch,
   FiLogIn,
-  FiLogOut,
+ 
   FiMenu,
   FiX,
   FiShoppingCart,
-  FiUser,
+  
 } from 'react-icons/fi';
-import { signInWithPopup, signOut, GoogleAuthProvider } from 'firebase/auth';
+import { signInWithPopup,  GoogleAuthProvider } from 'firebase/auth';
 import { auth } from '../firebaseConfig';
 import { UserContext } from '../context/UseContext';
 import { useTranslation } from 'react-i18next';
@@ -54,14 +54,7 @@ const Navbar = () => {
     }
   };
 
-  const handleLogout = async () => {
-    try {
-      await signOut(auth);
-      setShowProfile(false);
-    } catch (error) {
-      alert('Logout failed: ' + error.message);
-    }
-  };
+ 
 
   useEffect(() => {
     const handler = (e) => {
@@ -89,9 +82,9 @@ const Navbar = () => {
   return (
     <header className="navbar-container">
       <div className="top-marquee">
-        <marquee behavior="scroll" direction="left">
-          🎉 Exclusive Discounted Bundles! Shop now and save big! 🎉
-        </marquee>
+       <div className='marquee'>
+        <p>🎉 Exclusive Discounted Bundles! Shop now and save big! 🎉</p>
+       </div>
       </div>
 
       <div className="navbar-top navbar-top-flex">
