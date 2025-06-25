@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mobile-store/static/css/main.a8df4435.css",
-    "main.js": "/mobile-store/static/js/main.22d2154f.js",
+    "main.css": "/mobile-store/static/css/main.e1016a54.css",
+    "main.js": "/mobile-store/static/js/main.a9b50470.js",
     "static/js/239.56399e93.chunk.js": "/mobile-store/static/js/239.56399e93.chunk.js",
     "static/js/977.7386f27c.chunk.js": "/mobile-store/static/js/977.7386f27c.chunk.js",
     "static/js/455.e0e75271.chunk.js": "/mobile-store/static/js/455.e0e75271.chunk.js",
@@ -16,14 +16,14 @@
     "static/media/macairb.jpeg.jpg": "/mobile-store/static/media/macairb.jpeg.9a153a5c8425c6e51f5f.jpg",
     "static/media/swatches6.jpeg.jpg": "/mobile-store/static/media/swatches6.jpeg.b348024f63ca0a59f8ad.jpg",
     "index.html": "/mobile-store/index.html",
-    "main.a8df4435.css.map": "/mobile-store/static/css/main.a8df4435.css.map",
-    "main.22d2154f.js.map": "/mobile-store/static/js/main.22d2154f.js.map",
+    "main.e1016a54.css.map": "/mobile-store/static/css/main.e1016a54.css.map",
+    "main.a9b50470.js.map": "/mobile-store/static/js/main.a9b50470.js.map",
     "239.56399e93.chunk.js.map": "/mobile-store/static/js/239.56399e93.chunk.js.map",
     "977.7386f27c.chunk.js.map": "/mobile-store/static/js/977.7386f27c.chunk.js.map",
     "455.e0e75271.chunk.js.map": "/mobile-store/static/js/455.e0e75271.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8df4435.css",
-    "static/js/main.22d2154f.js"
+    "static/css/main.e1016a54.css",
+    "static/js/main.a9b50470.js"
   ]
 }
